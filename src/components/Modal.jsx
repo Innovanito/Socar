@@ -1,6 +1,8 @@
 import React from 'react'
+import vehiclesData from './vehiclesData'
 
 const Modal = ({onClose}) => {
+  
   return (
     <div className="max-w-md fixed inset-0 bg-black bg-opacity-25 flex items-center justify-center">
       <div className="bg-white p-2 w-96">
